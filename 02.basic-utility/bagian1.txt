@@ -1,0 +1,19 @@
+Utilities
+- Preflight
+- Spacing & Sizing
+- Typography
+- Colors
+- Background & Border
+- Rounding & Shadow
+- Pseudo Classes
+- Effect & Filters
+- Transition, Transformation & Animation
+- Layout & Positioning
+- Flexbox & Grid
+- Responsive Design
+...
+
+bagian 1 akan mempelajari
+- Spacing & Sizing
+- Typography
+- Colors
