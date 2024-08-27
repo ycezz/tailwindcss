@@ -3,23 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Utility - Bagian 1</title>
     <link rel="stylesheet" href="./style.css">
-    <style>
+    <!-- <style>
         * {
             border: 1px solid red;
         }
-    </style>
+    </style> -->
 </head>
 <body>
-    <h1>
-        Utility Tailwindcss Bagian 1
+    <h1 class="text-8xl font-bold text-center my-10">
+        Utility <span class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent">Tailwindcss</span> Bagian 1
     </h1>
 
-    <section>
-        <h2>Spacing</h2>
+    <section class="mb-10 bg-gradient-to-br from-indigo-200 via-red-400 to-yellow-300">
+        <h2 class="text-3xl">Spacing</h2>
         <div class="m-13">Margin</div>
         <div class="py-8">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-green-200">
+        <h2 class="text-3xl text-center">Sizing</h2>
+        <div class="w-32 h-32 bg-kopi">Kotak 1</div>
+    </section>
+
+    <section class="mb-96 font-inter max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-bold">Typography pada TailwindCSS</h2>
+        <div class="mb-4 text-lg text-gray-500">
+            By <a href="#" class="text-gray-700 font-semibold">Putri Mila</a>, 27 Aug 2024
+        </div>
+        <p class="mb-4 text-lg">
+            Lorem ipsum dolor sit amet <a href="#" class="underline font-semibold text-blue-600">consectetur</a> adipisicing elit. Quas in minus maxime aliquid odio odit magni blanditiis necessitatibus nostrum porro veritatis provident distinctio quia enim dolore beatae, quibusdam dolorum exercitationem quos rerum facilis dolorem. Veritatis sed corporis odio? Dolorem velit incidunt quos dolore magni sequi? Expedita modi explicabo ea. Culpa.
+        </p>
+        <blockquote class="mb-4 italic font-thin text-xl">
+            "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime optio eum laudantium. Officia dicta repellat numquam eveniet natus magni porro!"
+        </blockquote>
+        <p class="mb-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia obcaecati ut itaque incidunt sed natus dolores minus ab esse. Neque, placeat delectus aut quod fugit itaque magnam! A, mollitia?
+        </p>
     </section>
 </body>
 </html>
