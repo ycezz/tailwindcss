@@ -11,6 +11,7 @@ module.exports = {
           primary: "#3461FF",
           secondary: "#000000",
           gray: "#FAFAFA",
+          blackopacity: "#00000099",
         },
       },
     },

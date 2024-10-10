@@ -11,13 +11,19 @@
     <!-- Fonts General Sans Variabel -->
     <link href="https://fonts.cdnfonts.com/css/general-sans" rel="stylesheet" />
 
+    <!-- Fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/d014f0b29d.js"
+      crossorigin="anonymous"
+    ></script>
+
     <!-- Alpine JS -->
     <script
       defer
       src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
   </head>
-  <body class="font-general antialiased">
+  <body class="font-general font-medium antialiased">
     <main class="flex h-screen flex-col">
       <div>
         <!-- Navbar -->
@@ -49,7 +55,7 @@
           <div>
             <a
               href=""
-              class="bg-brand-primary block rounded-full px-6 py-3 text-white"
+              class="block rounded-full bg-brand-primary px-6 py-3 text-white"
               >Book A Call</a
             >
           </div>
@@ -68,7 +74,7 @@
               Care Of <br />
               Your Brand
             </h1>
-            <p class="py-5">
+            <p class="text-brand-blackopacity py-5">
               We care about our work and we care about our clients.
             </p>
             <form action="" method="post" class="flex gap-5">
@@ -80,7 +86,7 @@
                 class="w-72 rounded-full border bg-gray-100 px-8 py-2"
               />
               <button
-                class="bg-brand-primary block rounded-full px-6 py-3 text-white"
+                class="block rounded-full bg-brand-primary px-6 py-3 text-white"
               >
                 Lets Talk
               </button>
@@ -110,52 +116,198 @@
                 />
               </li>
               <li>
-                <img src="/src/img/google.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/google.png" alt="google-logo" width="140" />
               </li>
               <li>
-                <img src="/src/img/uber.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/uber.png" alt="uber-logo" width="140" />
               </li>
               <li>
                 <img
                   src="/src/img/microsoft.png"
-                  alt="spotify-logo"
+                  alt="microsoft-logo"
                   width="140"
                 />
               </li>
               <li>
                 <img
                   src="/src/img/shopify.png"
-                  alt="spotify-logo"
+                  alt="shopify-logo"
                   width="140"
                 />
               </li>
             </ul>
           </div>
-          <div>
+          <div class="mb-20">
             <ul class="mt-10 flex items-center justify-between">
               <li>
                 <img
                   src="/src/img/evernote.png"
-                  alt="spotify-logo"
+                  alt="evernote-logo"
                   width="140"
                 />
               </li>
               <li>
-                <img src="/src/img/adobe.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/adobe.png" alt="adobe-logo" width="140" />
               </li>
               <li>
-                <img src="/src/img/paypal.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/paypal.png" alt="paypal-logo" width="140" />
               </li>
               <li>
-                <img src="/src/img/amazon.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/amazon.png" alt="amazon-logo" width="140" />
               </li>
               <li>
-                <img src="/src/img/asana.png" alt="spotify-logo" width="140" />
+                <img src="/src/img/asana.png" alt="asana-logo" width="140" />
               </li>
             </ul>
           </div>
         </div>
       </div>
+
+      <!-- Commitments -->
+      <div class="mx-auto mt-16 max-w-screen-2xl">
+        <div class="mb-20 grid grid-cols-3 grid-rows-2 gap-5">
+          <div>
+            <h2 class="py-3 text-6xl font-semibold">245%</h2>
+            <p class="text-brand-blackopacity">More revenues for the brand</p>
+          </div>
+          <div>
+            <h2 class="py-3 text-6xl font-semibold">130K+</h2>
+            <p class="text-brand-blackopacity">Audiences reached</p>
+          </div>
+          <div>
+            <h2 class="py-3 text-6xl font-semibold">Commitments</h2>
+            <p class="text-brand-blackopacity">
+              We are committed to working with you collaboratively to understand
+              <br />
+              your goals and create a strategy that will achieve them.
+            </p>
+          </div>
+          <div>
+            <h2 class="py-3 text-6xl font-semibold">50+</h2>
+            <p class="text-brand-blackopacity">Brands trust us</p>
+          </div>
+          <div>
+            <h2 class="py-3 text-6xl font-semibold">24+</h2>
+            <p class="text-brand-blackopacity">Worldwide awards</p>
+          </div>
+          <div class="flex items-center gap-3">
+            <p class="font-semibold text-brand-primary">Learn More</p>
+            <i class="fa-solid fa-arrow-right text-brand-primary"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- How it works -->
+      <div class="mb-28">
+        <div class="mx-auto flex max-w-screen-2xl justify-between">
+          <div>
+            <h3 class="pb-5 text-5xl font-medium">How It Works</h3>
+            <p
+              class="text-brand-blackopacity mb-[82px] leading-loose tracking-wide"
+            >
+              We believe that the best way to create successful marketing <br />
+              campaigns is to work closely with our clients to understand <br />
+              their goals and challenges.
+            </p>
+            <img src="/src/img/works.png" alt="work-image" width="487" />
+          </div>
+          <div class="flex flex-col gap-[42px]">
+            <div class="flex items-center justify-between gap-10">
+              <div>
+                <img
+                  src="/src/img/discovery.png"
+                  alt="discovery-icon"
+                  width="106"
+                />
+              </div>
+              <div>
+                <h4 class="mb-[12px] text-2xl font-medium">Discovery</h4>
+                <p class="text-brand-blackopacity">
+                  We meet with you to learn about your business, your goals,
+                  <br />
+                  and your target audience.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between gap-10">
+              <div>
+                <img
+                  src="/src/img/strategy.png"
+                  alt="strategy-icon"
+                  width="106"
+                />
+              </div>
+              <div>
+                <h4 class="mb-[12px] text-2xl font-medium">Strategy</h4>
+                <p class="text-brand-blackopacity">
+                  We develop a customized marketing strategy that is based
+                  <br />
+                  on your unique needs and goals.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between gap-10">
+              <div>
+                <img src="/src/img/execution.png" alt="execution" width="106" />
+              </div>
+              <div>
+                <h4 class="mb-[12px] text-2xl font-medium">Execution</h4>
+                <p class="text-brand-blackopacity">
+                  We execute our strategy using the latest digital marketing
+                  <br />
+                  tools and techniques.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-between gap-10">
+              <div>
+                <img
+                  src="/src/img/measurement.png"
+                  alt="measurement"
+                  width="106"
+                />
+              </div>
+              <div>
+                <h4 class="mb-[12px] text-2xl font-medium">Measurement</h4>
+                <p class="text-brand-blackopacity">
+                  We track the results of our campaigns so that we can make
+                  <br />
+                  adjustments as needed.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Work -->
+      <div>
+        <h2 class="text-center">Our Work</h2>
+        <p class="text-center">A glimpse of our portfolio</p>
+        <div class="mx-auto flex max-w-screen-2xl justify-between gap-10">
+          <div>
+            <img src="/src/img/apple.png" alt="" width="400" />
+            <h5>Apple</h5>
+          </div>
+          <div>
+            <img src="/src/img/coca-cola.png" alt="" width="400" />
+            <h5>Coca-Cola</h5>
+          </div>
+          <div>
+            <img src="/src/img/nike.png" alt="" width="400" />
+            <h5>Nike</h5>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div
+        class="mx-auto mt-10 max-w-screen-2xl rounded-full bg-brand-primary px-6 py-3 text-2xl text-white"
+      >
+        <a href="" class="mx-auto">See more</a>
+      </div>
+
+      <!-- CTA Banner -->
     </main>
   </body>
 </html>
