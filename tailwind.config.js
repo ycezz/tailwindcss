@@ -12,6 +12,8 @@ module.exports = {
           secondary: "#000000",
           gray: "#FAFAFA",
           blackopacity: "#00000099",
+          arrowopacity: "#0000004D",
+          btngray: "#F8F9FF",
         },
       },
     },
