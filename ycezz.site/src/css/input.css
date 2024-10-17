@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.a-link {
+  @apply hover:text-[#FF644D];
+}
+
 .logo {
   @apply cursor-pointer text-[40px] font-medium;
 }
