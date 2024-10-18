@@ -21,3 +21,7 @@
 .custom-shadow {
   @apply border border-solid border-black shadow-[0px_8px_0px_rgba(0,0,0,1)];
 }
+
+.custom-shadow-contact {
+  @apply border border-solid border-black shadow-[0px_5px_0px_rgba(0,0,0,1)];
+}

@@ -165,7 +165,38 @@
     <main
       class="justify-center px-[50px] py-[5px] lg:flex lg:flex-col lg:px-[100px] lg:py-[76px]"
     >
-      <section id="Portfolio">
+      <!-- Search -->
+      <section id="Search">
+        <div class="flex flex-col items-center">
+          <div class="pb-[20px] lg:pb-[40px]">
+            <h2 class="text-[30px] font-medium md:text-[40px]">
+              Latest articles
+            </h2>
+          </div>
+          <form action="#">
+            <label
+              for="search-bar"
+              class="group relative flex gap-[10px] rounded-[50px] p-[12px_20px] ring-1 ring-[#E8EBF4] transition-all duration-300 focus-within:ring-2 focus-within:ring-[#FF644D] lg:w-[500px]"
+            >
+              <div class="flex h-5 w-5 shrink-0">
+                <i
+                  class="fa-solid fa-magnifying-glass absolute left-5 top-1/2 -translate-y-1/2 transform text-gray-500"
+                ></i>
+              </div>
+              <input
+                autocomplete="off"
+                type="text"
+                id="search-bar"
+                name="search-bar"
+                placeholder="Search articles"
+                class="w-full appearance-none font-semibold outline-none placeholder:font-normal placeholder:text-[#A3A6AE] focus:ring-0"
+              />
+            </label>
+          </form>
+        </div>
+      </section>
+
+      <section id="Blog">
         <div
           class="mt-[80px] grid grid-cols-1 gap-6 md:grid-cols-3 md:gap-5 lg:gap-6"
         >
