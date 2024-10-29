@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  @apply rounded-full bg-brand-primary px-[48px] py-[16px] text-2xl text-white;
+}

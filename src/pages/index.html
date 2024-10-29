@@ -25,7 +25,7 @@
   </head>
   <body class="font-general font-medium antialiased">
     <main class="flex h-screen flex-col">
-      <div>
+      <section id="Navbar">
         <!-- Navbar -->
         <header
           class="mx-auto flex max-w-screen-2xl items-center justify-between pt-[18px]"
@@ -55,18 +55,18 @@
           <div>
             <a
               href=""
-              class="block rounded-full bg-brand-primary px-6 py-3 text-white"
+              class="block rounded-full bg-brand-primary px-[24px] py-[16px] text-white"
               >Book A Call</a
             >
           </div>
         </header>
         <hr class="my-4 border-t-2" />
-      </div>
+      </section>
 
       <!-- hero -->
-      <div>
+      <section id="Hero">
         <div
-          class="mx-auto mb-16 mt-5 flex max-w-screen-2xl items-center justify-between"
+          class="mx-auto mb-16 mt-[84px] flex max-w-screen-2xl items-center justify-between"
         >
           <div class="w-1/2">
             <h1 class="text-8xl font-semibold">
@@ -86,7 +86,7 @@
                 class="w-72 rounded-full border bg-gray-100 px-8 py-2"
               />
               <button
-                class="block rounded-full bg-brand-primary px-6 py-3 text-white"
+                class="block rounded-full bg-brand-primary px-[36px] py-[22px] text-white"
               >
                 Lets Talk
               </button>
@@ -96,13 +96,13 @@
             <img src="/src/img/hero.png" alt="hero-image" width="608" />
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Partners -->
-      <div class="bg-brand-gray">
-        <div class="mx-auto max-w-screen-2xl">
+      <section id="Partners" class="bg-brand-gray">
+        <div class="mx-auto mb-[135px] max-w-screen-2xl">
           <div>
-            <h2 class="mb-14 mt-16 text-center text-2xl font-medium">
+            <h2 class="mb-[100px] mt-[78px] text-center text-2xl font-medium">
               Companies We Work with
             </h2>
           </div>
@@ -137,7 +137,7 @@
               </li>
             </ul>
           </div>
-          <div class="mb-20">
+          <div class="mt-[92px]">
             <ul class="mt-10 flex items-center justify-between">
               <li>
                 <img
@@ -161,10 +161,10 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Commitments -->
-      <div class="mx-auto mt-16 max-w-screen-2xl">
+      <section id="Commitments" class="mx-auto mt-16 max-w-screen-2xl">
         <div class="mb-20 grid grid-cols-3 grid-rows-2 gap-5">
           <div>
             <h2 class="py-3 text-6xl font-semibold">245%</h2>
@@ -195,7 +195,7 @@
             <i class="fa-solid fa-arrow-right text-brand-primary"></i>
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- How it works -->
       <div class="mb-28">
@@ -289,44 +289,50 @@
         <div class="mx-auto flex max-w-screen-2xl justify-between gap-10">
           <div>
             <img src="/src/img/apple.png" alt="" width="400" />
-            <h5 class="mt-1 text-center text-3xl font-medium">Apple</h5>
+            <h5 class="mt-4 text-center text-3xl font-medium">Apple</h5>
           </div>
           <div>
             <img src="/src/img/coca-cola.png" alt="" width="400" />
-            <h5 class="mt-1 text-center text-3xl font-medium">Coca-Cola</h5>
+            <h5 class="mt-4 text-center text-3xl font-medium">Coca-Cola</h5>
           </div>
           <div>
             <img src="/src/img/nike.png" alt="" width="400" />
-            <h5 class="mt-1 text-center text-3xl font-medium">Nike</h5>
+            <h5 class="mt-4 text-center text-3xl font-medium">Nike</h5>
           </div>
         </div>
       </div>
 
       <!-- CTA -->
-      <div
-        class="mx-auto mt-10 max-w-screen-2xl rounded-full bg-brand-primary px-6 py-3 text-2xl text-white"
-      >
+      <div class="btn mx-auto mt-[52px] max-w-screen-2xl">
         <a href="" class="mx-auto">See more</a>
       </div>
 
       <!-- CTA Banner -->
-      <div class="mt-[122px]">
+      <div class="relative mt-[122px]">
         <div
-          class="mx-auto flex max-w-screen-2xl items-center justify-between rounded-3xl bg-gradient-to-r from-blue-500 to-blue-700 p-10"
+          class="relative z-10 mx-auto flex max-w-screen-2xl items-center justify-between rounded-3xl bg-gradient-to-r from-blue-500 to-blue-700 p-10"
         >
-          <div class="text-white">
+          <img
+            src="/src/img/bg-radial.png"
+            alt="Bg-Radial"
+            width="910"
+            class="absolute inset-0 z-0 rounded-3xl object-cover opacity-40"
+          />
+          <div class="z-10 px-[56px] py-[98px] text-white">
             <h2 class="text-5xl font-medium leading-relaxed">
               Elevate Your <br />
               Brand Today
             </h2>
           </div>
-          <div class="text-white">
-            <p class="mb-4 leading-loose tracking-wide">
-              Ready to transform your digital dresence? Let's <br />
+          <div class="px-[56px] py-[98px]">
+            <p
+              class="mb-[32px] text-[20px] font-medium leading-loose tracking-wide text-white"
+            >
+              Ready to transform your digital presence? Let's <br />
               create magic together! book our services now!
             </p>
             <button
-              class="rounded-full bg-white px-4 py-2 font-semibold text-brand-primary"
+              class="rounded-full bg-white px-[48px] py-[16px] text-2xl font-medium text-brand-secondary"
             >
               Book Call
             </button>
@@ -348,11 +354,7 @@
               Discover the brilliance behind Embrace. Our team blends <br />
               innovation and artistry to craft digital wonders that captivate
             </p>
-            <button
-              class="rounded-full bg-brand-primary px-6 py-2 text-xl text-white"
-            >
-              Learn More
-            </button>
+            <button class="btn">Learn More</button>
           </div>
         </div>
       </div>
@@ -366,20 +368,22 @@
                 What Our Client Said About Us
               </h2>
             </div>
-            <div>
-              <a href="" class="bg-brand-btngray rounded-full px-5 py-4"
-                ><i class="fa-solid fa-arrow-left text-brand-arrowopacity"></i
+            <div class="flex justify-center text-center">
+              <a href="" class="rounded-full bg-brand-btngray px-8 py-8"
+                ><i
+                  class="fa-solid fa-arrow-left text-[24px] text-brand-arrowopacity"
+                ></i
               ></a>
             </div>
-            <div>
-              <a href="" class="rounded-full bg-brand-primary px-5 py-4"
-                ><i class="fa-solid fa-arrow-right text-white"></i
+            <div class="flex justify-center text-center">
+              <a href="" class="rounded-full bg-brand-primary px-8 py-8"
+                ><i class="fa-solid fa-arrow-right text-[24px] text-white"></i
               ></a>
             </div>
           </div>
           <!-- cards -->
-          <div class="flex space-x-6 overflow-x-auto">
-            <div class="w-80 rounded-xl bg-blue-600 p-6 text-white">
+          <div class="grid grid-cols-3 gap-12">
+            <div class="rounded-xl bg-brand-primary p-[40px] text-white">
               <div class="mb-4 flex items-center">
                 <img
                   alt="Portrait of Amelia Joseph"
@@ -393,53 +397,83 @@
                   <p class="text-sm">Chief Manager</p>
                 </div>
               </div>
-              <p>
+              <p class="leading-loose tracking-wide">
                 My vision came alive effortlessly. Their blend of casual and
                 professional approach made the process a breeze. Creativity
                 flowed, and the results were beyond my expectations.
               </p>
             </div>
-            <div class="w-80 rounded-lg bg-gray-100 p-6 text-black">
+            <div
+              class="rounded-xl bg-brand-btngray p-[40px] text-brand-secondary"
+            >
               <div class="mb-4 flex items-center">
                 <img
                   alt="Portrait of Jacob Joshua"
                   class="mr-4 h-12 w-12 rounded-full"
                   height="50"
-                  src="https://storage.googleapis.com/a1aa/image/zpyaUlb0i5LjNRxm9kpM23QABZxpSw7KSV5I8wfCroMET3yJA.jpg"
+                  src="/src/img/review-2.png"
                   width="50"
                 />
                 <div>
-                  <h2 class="text-lg font-bold">Jacob Joshua</h2>
+                  <h4 class="text-lg font-semibold">Jacob Joshua</h4>
                   <p class="text-sm">Chief Manager</p>
                 </div>
               </div>
-              <p>
+              <p class="leading-loose tracking-wide">
                 I found the digital expertise I needed. Their
                 creative-professional balance exceeded expectations. Friendly
                 interactions, exceptional outcomes. For digital enchantment,
                 it's got to be Embrace!
               </p>
             </div>
-            <div class="w-80 rounded-lg bg-gray-100 p-6 text-black">
+            <div
+              class="rounded-xl bg-brand-btngray p-[40px] text-brand-secondary"
+            >
               <div class="mb-4 flex items-center">
                 <img
                   alt="Portrait of Jacob Joshua"
                   class="mr-4 h-12 w-12 rounded-full"
                   height="50"
-                  src="https://storage.googleapis.com/a1aa/image/zpyaUlb0i5LjNRxm9kpM23QABZxpSw7KSV5I8wfCroMET3yJA.jpg"
+                  src="/src/img/review-3.png"
                   width="50"
                 />
                 <div>
-                  <h2 class="text-lg font-bold">Jacob Joshua</h2>
+                  <h4 class="text-lg font-semibold">Jacob Joshua</h4>
                   <p class="text-sm">Chief Manager</p>
                 </div>
               </div>
-              <p>
-                Embrace really nails it! Creative and approachable style.
-                They're the best where artistry meets strategy. Thrilling
-                results achieved!
+              <p class="leading-loose tracking-wide">
+                Embrace really nails it! Creative brilliance, approachable
+                style. They're the partners you want—artistry meets strategy.
+                Thrilled with what they achieved!"
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative mt-[106px]">
+        <div
+          class="relative z-10 mx-auto mb-[122px] mt-[122px] flex max-w-screen-2xl items-center justify-between rounded-[56px] bg-[#232038] px-[87px] py-[32px]"
+        >
+          <img
+            src="/src/img/grid.png"
+            alt="bg-image"
+            class="absolute inset-0 z-0 rounded-3xl object-cover"
+          />
+          <div class="z-10 mr-[250px] px-[80px] py-[102px]">
+            <h2 class="text-[56px] font-medium text-white">
+              Start Your Journey With Us Now
+            </h2>
+            <button class="btn z-10 mt-[80px]">Start Now</button>
+          </div>
+          <div>
+            <img
+              class="z-10"
+              src="/src/img/journey.png"
+              alt="journey-img"
+              width="500"
+            />
           </div>
         </div>
       </div>
